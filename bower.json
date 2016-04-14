@@ -1,0 +1,27 @@
+{
+  "name": "ngInputMask",
+  "authors": [
+    "leonardo <wang861622836@163.com>"
+  ],
+  "description": "Input mask use AngularJs",
+  "main": "./ngInputMask.js",
+  "moduleType": [],
+  "keywords": [
+    "input",
+    "mask",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.5.3",
+    "underscore": "~1.8.3"
+  }
+}

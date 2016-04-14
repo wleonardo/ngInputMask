@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<div ng-app="myApp" ng-controller="myCtrl">
+    {{firstName}}
+    <inputmask isbn-link="'lala'" isbn-format="'999-999-999-9'"></inputmask>
+</div>
+
+<body>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript">
+    var app = angular.module('myApp', ['ngInputMask']);
+    app.controller('myCtrl', function($scope) {
+        $scope.firstName = "John";
+        $scope.lastName = "Doe";
+    });
+    </script>
+    <script type="text/javascript" src="ngInputMask.js"></script>
+</body>
+
+</html>
